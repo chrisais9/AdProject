@@ -1,0 +1,54 @@
+/*홈페이지 배경*/
+html {
+    height: 150%;
+    width: 100%;
+    display:block;
+    color: -internal-root-color;
+}
+div{display:block;}
+body{color:#EEEEEE; padding:0px; margin:0px;min-width:480px; font-family:'NunumBarunGothic', 돋움;}
+
+/*홈페이지 상단 표시줄*/
+#Top{height:50px;background-color:#252d3d; position: fixed; width:100%; z-index:5;box-shadow:0px 2px 2px #000;}
+.menu{min-width:500px;}
+.container{margin-right:100px;margin-left:100px;padding-left:15px;padding-right:15px;}
+.logoTop{left:0;right:0;cursor:pointer;float:left;}
+#account{float:right;color:#fff;height:50px;}
+#account :hover{background-color:rgb(91, 103, 109);}
+#account-info{margin:10px 5px; float:left; text-align:right;cursor:pointer;transition:color 300ms ease;}
+.account-nick{font-weight:bold; font-size:1.2rem;}
+.account-desc{font-size:0.5rem;color:#eaff00;}
+
+/*홈페이지 Jungle*/
+span{display:none;}
+#Background{min-width:100%; min-height: 100%; position:fixed;top:50px;left:0px;width:100%;height:100%;pointer-events: none;z-index:-1;}
+.jt-image{float:left;border-radius:5px;background-size:100%;}
+/*홈페이지 중앙 왼쪽*/
+#Middle{margin-top:75px; flex:1 auto; float:left; width:1010px;}
+
+.leftlg{width:260px;}
+#HG-portal{display:flex; flex-flow:row wrap;}
+.HG-portal-leftpannel{width:260px;}
+
+.mainlogo{float:left;text-align:center;z-index:-1;height:210px;position:relative;background-color:rgba(139, 126, 126, 0.15);margin-bottom:5px;}
+
+#game-start{background:url(이미지 링크);width:260px;height:100px;border:inherit;padding:inherit;transition:inherit;z-index:2;cursor:pointer;border-radius:inherit;}
+button{display:block;box-sizing:inherit;font-family:inherit;}
+
+#players-status{margin-top:4px; background-color:#3e729c;height:20px;}
+#players-num{width:190px;}
+#renum{cursor:pointer;color:#3e719c;background-color:#fff;width:70px;}
+#players-num,#renum{line-height:20px; float:left;font-family:'NanumSquare','NanumBarunGothic';display:block;text-align:center;font-size:0.8rem;}
+
+#menu-list{width:260px;}
+.menu-item{width:100%;height:50px;cursor:pointer;background-color:rgba(0,0,0,0.5);margin-top:4px;}
+.ssb-a{background-color:#fff000;}
+.ssb-b{background-color:#76ec7c;}
+.ssb-c{background-color:#76b3ec;}
+.ssb-d{background-color:#ec76c9;}
+.ssb-e{background-color:#ca76ec;}
+.menu-status-bar{float:left;height:100%;margin-left:5px;width:8px;}
+.menu-head{float: left;font-family: 'NanumSquare', 'NanumBarunGothic';font-size: 1.3rem;color: #fff;margin-top: 10px;}
+.menu-head :hover{transform:scale(1.1);}
+.menu-name {font-weight: 800;float: left;margin-left: 5px;}
+.menu-enter {float: left;font-weight: 400;margin-left: 5px;}

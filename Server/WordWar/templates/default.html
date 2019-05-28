@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>kkutu imitation</title>
+        <link rel="stylesheet" href="{% static 'css/HomeUI.css' %}">
+    </head>
+
+    <body style="min-width:640px;">
+    <div id="Top">
+        <div class="Menu">
+            <div class="container">
+                <img class="logoTop" alt="logo_top" title="Word War 상단 로고" src="" onclick="location.href=('#')">
+                <div id="account">
+                    <div id="account-info"
+                         onclick="window.open({% url 'login' %},'window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">
+                        <div class="account-nick">로그인</div>
+                        <div class="account-desc">로그인을 하고 더욱 즐거운 Word War를 즐겨보세요!</div>
+                    </div>
+                    <img class="menu-img" alt="menu-img" src="이미지 링크" width="50" height="50">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Jungle">
+        <span id="mobile"></span>
+        <span id="summonerID"></span>
+        <div id="Background" alt="background" style= "background-image: url('이미지 링크');" src(unkown) class="jt-imge"></div>
+    </div>
+    <div id="Middle" style="margin-left:100px;">
+        <div id="HG-portal">
+            <div class="HG-portal-leftpannel">
+                <div class="mainlogo">
+                    <img id="logo" alt="logo" title="Word War 로고" src="이미지 링크">
+                </div>
+                <button id="game-start"style="background-position-x:5200px;"></button>
+                <div id="players-status">
+                    <span id="players-num">▶총  명이 접속하고 있습니다.</span>
+                    <span id="renum">↻ 새로고침</span>
+                </div>
+                <div id="menu-list">
+                    <div class="menu-item" id="main-G">
+                        <div class="menu-status-bar ssb-a"></div>
+                        <div class="menu-head" style="transform:scale(1);">
+                            <div class="menu-name">공지</div>
+                            <div class="menu-enter">게시판</div>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="fixed-G">
+                        <div class="menu-status-bar ssb-b"></div>
+                        <div class="menu-head" style="transform:scale(1);">
+                            <div class="menu-name">패치</div>
+                            <div class="menu-enter">게시판</div>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="free-G">
+                        <div class="menu-status-bar ssb-c"></div>
+                        <div class="menu-head" style="transform:scale(1);">
+                            <div class="menu-name">자유</div>
+                            <div class="menu-enter">게시판</div>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="qna-G">
+                        <div class="menu-status-bar ssb-d"></div>
+                        <div class="menu-head" style="transform:scale(1);">
+                            <div class="menu-name">질문</div>
+                            <div class="menu-enter">게시판</div>
+                        </div>
+                    </div>
+                    <div class="menu-item" id="singun-G">
+                        <div class="menu-status-bar ssb-e"></div>
+                        <div class="menu-head" style="transform:scale(1);">
+                            <div class="menu-name">건의</div>
+                            <div class="menu-enter">게시판</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
