@@ -1,10 +1,6 @@
 /*홈페이지 배경*/
-html {
-    height: 150%;
-    width: 100%;
-    display:block;
-    color: -internal-root-color;
-}
+html {height: 150%;width: 100%;display:block;color: -internal-root-color;}
+
 div{display:block;}
 body{color:#EEEEEE; padding:0px; margin:0px;min-width:480px; font-family:'NunumBarunGothic', 돋움;}
 
@@ -62,3 +58,8 @@ button{display:block;box-sizing:inherit;font-family:inherit;}
 .slidePanel{width:700px;height:270px;}
 .Panel{float:left;background-color:rgba(0,0,0,0.5);}
 .slideImage{width:700px;height:270px;}
+.slideImage-List{position:relative;top:25px;left:10px;}
+.slideImage-Item{float:left;border:solid rgba(0,0,0,0.8) 1px;border-radius:10px;margin:3px;width:10px;height:10px;background:rgba(255,255,255,0.8);cursor:pointer;}
+.HG-portal-subleftpannel{margin-top:5px;float:left;width:335px;}
+.noticePanel{width:335px;height:200px;}
+.Panel{float:left;background-color:rgba(0,0,0,0.5);}
