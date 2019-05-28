@@ -1,17 +1,13 @@
 /*홈페이지 배경*/
-html {
-    height: 150%;
-    width: 100%;
-    display:block;
-    color: -internal-root-color;
-}
+html {height: 150%;width: 100%;display:block;color: -internal-root-color;}
+
 div{display:block;}
 body{color:#EEEEEE; padding:0px; margin:0px;min-width:480px; font-family:'NunumBarunGothic', 돋움;}
 
 /*홈페이지 상단 표시줄*/
 #Top{height:50px;background-color:#252d3d; position: fixed; width:100%; z-index:5;box-shadow:0px 2px 2px #000;}
 .menu{min-width:500px;}
-.container{margin-right:100px;margin-left:100px;padding-left:15px;padding-right:15px;}
+.container{margin-right:150px;margin-left:150px;padding-left:15px;padding-right:15px;}
 .logoTop{left:0;right:0;cursor:pointer;float:left;}
 #account{float:right;color:#fff;height:50px;}
 #account :hover{background-color:rgb(91, 103, 109);}
@@ -23,7 +19,7 @@ body{color:#EEEEEE; padding:0px; margin:0px;min-width:480px; font-family:'NunumB
 .Top-menu-item li{float:left;line-height:40px;color:white;padding:0 10px;display:block;margin:0px 5px;cursor:pointer;text-align:center;}
 .Top-menu-item li:hover{background-color:rgb(120, 182, 212)}
 #menu-img{position:relative;width:30px;height:30px;top:5px;}
-#Top-menu{position:relative; top:50px; height:40px;background-color:#6381be; position: fixed; width:100%; z-index:5;box-shadow:0px 2px 2px #000;}
+#Top-menu{position: fixed; top:50px; height:40px;background-color:#6381be; width:100%; z-index:5;box-shadow:0px 2px 2px #000;}
 /*홈페이지 Jungle*/
 span{display:none;}
 #Background{min-width:100%; min-height: 100%; position:fixed;top:50px;left:0px;width:100%;height:100%;pointer-events: none;z-index:-1;}
@@ -59,3 +55,11 @@ button{display:block;box-sizing:inherit;font-family:inherit;}
 .menu-enter {float: left;font-weight: 400;margin-left: 5px;}
 
 .HG-portal-rightpannel{width:700px;margin-left:10px;}
+.slidePanel{width:700px;height:270px;}
+.Panel{float:left;background-color:rgba(0,0,0,0.5);}
+.slideImage{width:700px;height:270px;}
+.slideImage-List{position:relative;top:25px;left:10px;}
+.slideImage-Item{float:left;border:solid rgba(0,0,0,0.8) 1px;border-radius:10px;margin:3px;width:10px;height:10px;background:rgba(255,255,255,0.8);cursor:pointer;}
+.HG-portal-subleftpannel{margin-top:5px;float:left;width:335px;}
+.noticePanel{width:335px;height:200px;}
+.Panel{float:left;background-color:rgba(0,0,0,0.5);}
