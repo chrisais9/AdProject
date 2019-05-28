@@ -23,7 +23,7 @@ body{color:#EEEEEE; padding:0px; margin:0px;min-width:480px; font-family:'NunumB
 .Top-menu-item li{float:left;line-height:40px;color:white;padding:0 10px;display:block;margin:0px 5px;cursor:pointer;text-align:center;}
 .Top-menu-item li:hover{background-color:rgb(120, 182, 212)}
 #menu-img{position:relative;width:30px;height:30px;top:5px;}
-#Top-menu{position:relative; top:50px; height:40px;background-color:#6381be; position: fixed; width:100%; z-index:5;box-shadow:0px 2px 2px #000;}
+#Top-menu{position: fixed; top:50px; height:40px;background-color:#6381be; width:100%; z-index:5;box-shadow:0px 2px 2px #000;}
 /*홈페이지 Jungle*/
 span{display:none;}
 #Background{min-width:100%; min-height: 100%; position:fixed;top:50px;left:0px;width:100%;height:100%;pointer-events: none;z-index:-1;}
