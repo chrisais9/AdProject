@@ -19,20 +19,25 @@ body{color:#EEEEEE; padding:0px; margin:0px;min-width:480px; font-family:'NunumB
 .account-nick{font-weight:bold; font-size:1.2rem;}
 .account-desc{font-size:0.5rem;color:#eaff00;}
 
+.Top-menu-item{font-weight:bold;font-size:1.2rem;float:right;margin:0 0px;}
+.Top-menu-item li{float:left;line-height:40px;color:white;padding:0 10px;display:block;margin:0px 5px;cursor:pointer;text-align:center;}
+.Top-menu-item li:hover{background-color:rgb(120, 182, 212)}
+#menu-img{position:relative;width:30px;height:30px;top:5px;}
+#Top-menu{position:relative; top:50px; height:40px;background-color:#6381be; position: fixed; width:100%; z-index:5;box-shadow:0px 2px 2px #000;}
 /*홈페이지 Jungle*/
 span{display:none;}
 #Background{min-width:100%; min-height: 100%; position:fixed;top:50px;left:0px;width:100%;height:100%;pointer-events: none;z-index:-1;}
 .jt-image{float:left;border-radius:5px;background-size:100%;}
 /*홈페이지 중앙 왼쪽*/
-#Middle{margin-top:75px; flex:1 auto; float:left; width:1010px;}
+#Middle{margin-top:125px; flex:1 auto; float:left; width:1010px;}
 
 .leftlg{width:260px;}
 #HG-portal{display:flex; flex-flow:row wrap;}
 .HG-portal-leftpannel{width:260px;}
 
-.mainlogo{float:left;text-align:center;z-index:-1;height:210px;position:relative;background-color:rgba(139, 126, 126, 0.15);margin-bottom:5px;}
+.mainlogo{float:left;text-align:center;z-index:-1;height:210px;position:relative;background-color:rgba(112, 226, 216, 0.418);margin-bottom:5px;}
 
-#game-start{background:url(이미지 링크);width:260px;height:100px;border:inherit;padding:inherit;transition:inherit;z-index:2;cursor:pointer;border-radius:inherit;}
+#game-start{background:url('이미지 링크');width:260px;height:100px;border:inherit;padding:inherit;transition:inherit;z-index:2;cursor:pointer;border-radius:inherit;background-color:rgba(112, 226, 216, 0.418);}
 button{display:block;box-sizing:inherit;font-family:inherit;}
 
 #players-status{margin-top:4px; background-color:#3e729c;height:20px;}
@@ -52,3 +57,5 @@ button{display:block;box-sizing:inherit;font-family:inherit;}
 .menu-head :hover{transform:scale(1.1);}
 .menu-name {font-weight: 800;float: left;margin-left: 5px;}
 .menu-enter {float: left;font-weight: 400;margin-left: 5px;}
+
+.HG-portal-rightpannel{width:700px;margin-left:10px;}

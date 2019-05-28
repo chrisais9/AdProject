@@ -1,20 +1,18 @@
 <!DOCTYPE html>
-{% load static %}
+{% load staticfiles %}
 <html>
     <head>
         <meta charset="utf-8">
         <title>kkutu imitation</title>
-        <link rel="stylesheet" href="{% static 'css/HomeUI.css' %}">
+        <link rel= "stylesheet" href="{% static "css/HomeUI.css" %}">
     </head>
-
     <body style="min-width:640px;">
     <div id="Top">
         <div class="Menu">
             <div class="container">
                 <img class="logoTop" alt="logo_top" title="Word War 상단 로고" src="" onclick="location.href=('#')">
                 <div id="account">
-                    <div id="account-info"
-                         onclick="window.open({% url 'login' %},'window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">
+                    <div id="account-info" onclick="window.open('./login.html','window_name','width=430,height=500,location=no,status=no,scrollbars=yes');">
                         <div class="account-nick">로그인</div>
                         <div class="account-desc">로그인을 하고 더욱 즐거운 Word War를 즐겨보세요!</div>
                     </div>
@@ -23,10 +21,18 @@
             </div>
         </div>
     </div>
+    <div id="Top-menu">
+        <ul class="Top-menu-item">
+            <li id="lihome" onclick="location.href='#'"><img id="menu-img" src="{% static "img/home.png" %}" alt="menu-img"></li>
+            <li id="lime" onclick="location.href='address'"><img id="menu-img" src="{% static "img/man-user.png" %}" alt="menu-img"></li>
+            <li id="lisc" onclick="location.href='address'"><img id="menu-img" src="{% static "img/search.png" %}" alt="menu-img"></li>
+        </ul>
+        </div>
+    </div>
     <div id="Jungle">
         <span id="mobile"></span>
         <span id="summonerID"></span>
-        <div id="Background" alt="background" style= "background-image: url('이미지 링크');" src(unkown) class="jt-imge"></div>
+        <div id="Background" alt="background" style= "background-image: url({% static "img/backgimg.jpg" %});" class="jt-imge"></div>
     </div>
     <div id="Middle" style="margin-left:100px;">
         <div id="HG-portal">
@@ -75,6 +81,10 @@
                             <div class="menu-enter">게시판</div>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="HG-portal-rightpannel">
+                <div class="slidepanel panel">
                 </div>
             </div>
         </div>
