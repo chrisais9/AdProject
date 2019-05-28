@@ -22,7 +22,7 @@ def signin(request):
         form = LoginForm(request.POST)
         username = request.POST['username']
         password = request.POST['password']
-        user = authenticate(username = username, password = password)
+        user = authenticate(username=username, password=password)
         if user is not None:
             login(request, user)
             return redirect('index')
