@@ -61,5 +61,8 @@ button{display:block;box-sizing:inherit;font-family:inherit;}
 .slideImage-List{position:relative;top:25px;left:10px;}
 .slideImage-Item{float:left;border:solid rgba(0,0,0,0.8) 1px;border-radius:10px;margin:3px;width:10px;height:10px;background:rgba(255,255,255,0.8);cursor:pointer;}
 .HG-portal-subleftpannel{margin-top:5px;float:left;width:335px;}
+
 .noticePanel{width:335px;height:200px;}
-.Panel{float:left;background-color:rgba(0,0,0,0.5);}
+.panelHead{background:#fff;color:#3e719c;height:20px;}
+.panelTitle{font-weight:800;display:block;float:left;margin-left:3px;}
+.panelSubTitle{font-weight:300;display:block;float:left;font-size:0.8rem;margin-top:5px;}
