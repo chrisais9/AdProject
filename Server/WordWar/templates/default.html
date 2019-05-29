@@ -97,18 +97,11 @@
                     <div class="panelSubTitle">Notice</div>
                   </div>
                   <div class="notice">
-                    <table class="Main-community">
-                      <tbody>
-                      {% for data in form %}
-                      <tr>
-                        <td>{{ data.party_number}}번</td>
-                        <td>{{ data.name }}</td>
-                        <td>{{ data.introduction }}</td>
-                        <td>{{ data.area}}</td>
-                      </tr>
+                      {% for data in Cdata %}
+                        {{ data.party_number}}번
+                        {{ data.name }}
+                        {{ data.introduction }}
                       {% endfor %}
-                      </tbody>
-                    </table>
                   </div>
                 </div>
                 <div class="updatePanel Panel"></div>
