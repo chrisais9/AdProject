@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>kkutu imitation</title>
+        <title>WordWar</title>
         <link rel= "stylesheet" href="{% static "css/HomeUI.css" %}">
     </head>
     <body style="min-width:640px;">
@@ -95,6 +95,20 @@
                   <div class="panelHead">
                     <div class="panelTitle">공지사항</div>
                     <div class="panelSubTitle">Notice</div>
+                  </div>
+                  <div class="notice">
+                    <table class="Main-community">
+                      <tbody>
+                      {% for data in form %}
+                      <tr>
+                        <td>{{ data.party_number}}번</td>
+                        <td>{{ data.name }}</td>
+                        <td>{{ data.introduction }}</td>
+                        <td>{{ data.area}}</td>
+                      </tr>
+                      {% endfor %}
+                      </tbody>
+                    </table>
                   </div>
                 </div>
                 <div class="updatePanel Panel"></div>

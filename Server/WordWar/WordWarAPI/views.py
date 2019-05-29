@@ -3,6 +3,7 @@ from django.shortcuts import render, redirect
 from .forms import UserForm, LoginForm
 from django.contrib.auth.models import User
 from django.contrib.auth import login, authenticate
+from .models import Maincommunity
 
 def signup(request):
     if request.method == "POST":
@@ -32,6 +33,9 @@ def signin(request):
         form = LoginForm()
         return render(request, 'auth/login.html', {'form': form})
 
+def Community_index(request):
+  Cdata = Maincommunity.objects.all()
+  return render(request, 'default.html', {'Cdata': Cdata})
+
 def index(request):
     return render(request, 'default.html')
-
