@@ -1,12 +1,30 @@
-AdProject
+AdProject (KookMin University Software Project 1)
 =========
-# Research
+# Prerequisites
 ------------------------
-Platform : Web (Django, html, css, js)
 
-Language : JAVA, Python
+### Install List
+Backend Stack : Pycharm, Django (python)
 
-KookMin University Software Project 1
+- Pycharm `1.2 Pro Edition`
+- Django `2.2`
+
+frontend Stack : Android Studio (Java)
+
+- Android Studio `3.4.1`
+- Minimum API Level `API 21: Android 5.0(Lolipop)`
+- Package : `com.adproject.wordwar`
+
+Development Platform : MacOs , Windows
+
+------------------------
+### TODO
+- [ ] 국립 국어원 API Key
+- [ ] Login
+- [ ] UI
+- [ ] Retrofit 라이브러리 (API 통신) 테스트
+- [ ] Word Bot
+
 
 JAVA Language Rules
 ----------------------------
