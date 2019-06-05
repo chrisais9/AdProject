@@ -1,4 +1,4 @@
-package com.example.androidclient;
+package com.adproject.wordwar;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;

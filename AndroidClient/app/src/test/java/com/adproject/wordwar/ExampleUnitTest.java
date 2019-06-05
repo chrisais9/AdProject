@@ -1,4 +1,4 @@
-package com.example.androidclient;
+package com.adproject.wordwar;
 
 import org.junit.Test;
 
