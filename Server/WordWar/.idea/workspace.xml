@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3b9f10d2-c32a-4cf7-b4df-b246c7ea87ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordWar/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWar/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordWar/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWar/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordWarAPI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWarAPI/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWar/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="442">
+              <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
               </folding>
@@ -146,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
@@ -286,12 +283,12 @@
       <workItem from="1559026028946" duration="394000" />
       <workItem from="1559026690759" duration="5133000" />
       <workItem from="1559228323017" duration="372000" />
-      <workItem from="1559920530930" duration="579000" />
+      <workItem from="1559920530930" duration="1940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13542000" />
+    <option name="totallyTimeSpent" value="14903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,7 +300,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.25579977" />
@@ -429,8 +427,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWar/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="442">
+          <caret line="26" column="47" lean-forward="true" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding>
             <element signature="e#631#663#0" expanded="true" />
           </folding>

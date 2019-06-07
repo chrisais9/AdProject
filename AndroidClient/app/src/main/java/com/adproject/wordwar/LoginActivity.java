@@ -117,7 +117,7 @@ public class LoginActivity extends AppCompatActivity {
 
                     @Override
                     public void onFailure(Call<LoginResponse> call, Throwable t) {
-                        //t.printStackTrace();
+                        t.printStackTrace();
                         Toast.makeText(getApplicationContext(), "서버 연결 실패", Toast.LENGTH_LONG).show();
                         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
                         loadingProgressBar.setVisibility(View.GONE);
@@ -130,7 +130,6 @@ public class LoginActivity extends AppCompatActivity {
     private void goMain(){
         Intent intent = new Intent(getApplicationContext(), MainActivity.class);
         startActivity(intent);
-        finish();
     }
 
     private boolean isEmailValid(String username) {
