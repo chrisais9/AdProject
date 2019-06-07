@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect
 from .forms import UserForm, LoginForm
 from django.contrib.auth.models import User
@@ -39,3 +39,8 @@ def Community_index(request):
 
 def index(request):
     return render(request, 'default.html')
+
+
+#To be Removed
+def logintest(request):
+    return JsonResponse({'status': 'Success'})
