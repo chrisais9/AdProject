@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.view.WindowManager;
@@ -109,6 +110,7 @@ public class LoginActivity extends AppCompatActivity {
                             goMain();
                         }
                         else {
+
                             Toast.makeText(getApplicationContext(), response.raw().message(), Toast.LENGTH_LONG).show();
                             getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
                             loadingProgressBar.setVisibility(View.GONE);

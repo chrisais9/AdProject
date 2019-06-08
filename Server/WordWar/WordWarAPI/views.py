@@ -4,6 +4,7 @@ from .forms import UserForm, LoginForm
 from django.contrib.auth.models import User
 from django.contrib.auth import login, authenticate
 from .models import Maincommunity
+from django.views.decorators.csrf import csrf_exempt
 
 def signup(request):
     if request.method == "POST":
@@ -42,5 +43,7 @@ def index(request):
 
 
 #To be Removed
+@csrf_exempt
 def logintest(request):
-    return JsonResponse({'status': 'Success'})
+    if request.method == "POST":
+        return JsonResponse({'status': 'Success'})

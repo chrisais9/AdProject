@@ -10,9 +10,7 @@ public class LoginResponse {
         return username;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
+    public void setUsername(String username) { this.username = username; }
 
     public String getName() {
         return name;
