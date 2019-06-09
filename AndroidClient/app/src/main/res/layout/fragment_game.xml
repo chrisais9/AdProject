@@ -18,7 +18,7 @@
         android:layout_marginTop="200dp"
         android:layout_marginEnd="24dp"
 
-        android:hint="단어 압력"
+        android:hint="단어 입력"
         android:imeActionLabel="Sign in"
         android:imeOptions="actionDone"
         android:inputType="textPassword"

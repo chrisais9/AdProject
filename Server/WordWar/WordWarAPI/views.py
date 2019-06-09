@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import login, authenticate
 from .models import Maincommunity
 from django.views.decorators.csrf import csrf_exempt
+from WordWarAPI.checkValidWord import isValidWord
 
 def signup(request):
     if request.method == "POST":
@@ -41,6 +42,10 @@ def Community_index(request):
 def index(request):
     return render(request, 'default.html')
 
+def validword(request):
+    t = request.GET['word']
+    flag = isValidWord(t)
+    return JsonResponse({'valid': flag})
 
 #To be Removed
 @csrf_exempt
