@@ -15,4 +15,5 @@ public class GameWordRequest {
         this.word = word;
     }
 
+
 }

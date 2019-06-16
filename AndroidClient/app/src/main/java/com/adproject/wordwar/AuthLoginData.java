@@ -1,32 +1,32 @@
 package com.adproject.wordwar;
 
-public class LoginData {
-    private static LoginData instance = null;
+public class AuthLoginData {
+    private static AuthLoginData instance = null;
 
     private String username;
     private String name;
     private String token;
 
-    public static LoginData getInstance()
+    public static AuthLoginData getInstance()
     {
-        if(instance == null) instance = new LoginData();
+        if(instance == null) instance = new AuthLoginData();
         return instance;
     }
 
-    public LoginData() {
+    public AuthLoginData() {
         this("", "","");
     }
 
-    public LoginData(String username, String name, String token) {
+    public AuthLoginData(String username, String name, String token) {
         this.username = username;
         this.name = name;
         this.token = token;
     }
 
-    public void setData(LoginResponse loginResponse){
-        this.username = loginResponse.getUsername();
-        this.name = loginResponse.getName();
-        this.token = loginResponse.getToken();
+    public void setData(AuthLoginResponse authLoginResponse){
+        this.username = authLoginResponse.getUsername();
+        this.name = authLoginResponse.getName();
+        this.token = authLoginResponse.getToken();
     }
 
     public String getUsername() {

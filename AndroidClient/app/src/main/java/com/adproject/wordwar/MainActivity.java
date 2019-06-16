@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     GameFragment gameFragment;
+    MainFragment mainFragment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +45,9 @@ public class MainActivity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
         gameFragment = new GameFragment();
+        mainFragment = new MainFragment();
 
-        setFrag(1);
+        setFrag(0);
     }
 
     @Override
@@ -58,7 +60,6 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
@@ -89,6 +90,10 @@ public class MainActivity extends AppCompatActivity
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         switch (n){
+            case 0:
+                fragmentTransaction.replace(R.id.main_frame, mainFragment);
+                fragmentTransaction.commit();
+                break;
 
             case 1:
                 fragmentTransaction.replace(R.id.main_frame, gameFragment);

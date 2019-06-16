@@ -1,10 +1,10 @@
 package com.adproject.wordwar;
 
-public class LoginRequest {
+public class AuthLoginRequest {
     private String username;
     private String password;
 
-    public LoginRequest(String username, String password) {
+    public AuthLoginRequest(String username, String password) {
         this.username = username;
         this.password = password;
     }

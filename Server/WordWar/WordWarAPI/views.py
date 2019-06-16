@@ -45,7 +45,7 @@ def index(request):
 def validword(request):
     t = request.GET['word']
     flag = isValidWord(t)
-    return JsonResponse({'valid': flag})
+    return JsonResponse({'total': flag,'echo':t})
 
 #To be Removed
 @csrf_exempt

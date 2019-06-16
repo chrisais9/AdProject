@@ -1,10 +1,9 @@
 package com.adproject.wordwar;
 
-public class LoginResponse {
+public class AuthLoginResponse {
     private String username;
     private String name;
     private String token;
-    private boolean isFirst;
 
     public String getUsername() {
         return username;
@@ -26,13 +25,5 @@ public class LoginResponse {
 
     public void setToken(String token) {
         this.token = token;
-    }
-
-    public boolean isFirst() {
-        return isFirst;
-    }
-
-    public void setFirst(boolean first) {
-        isFirst = first;
     }
 }

@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.util.Patterns;
 import android.view.View;
 import android.view.WindowManager;
@@ -20,7 +19,7 @@ import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public class LoginActivity extends AppCompatActivity {
+public class AuthLoginActivity extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -98,14 +97,14 @@ public class LoginActivity extends AppCompatActivity {
                         .build();
                 RetrofitService retrofitService = retrofit.create(RetrofitService.class);
 
-                LoginRequest loginRequest = new LoginRequest(emailEditText.getText().toString(), passwordEditText.getText().toString());
-                Call<LoginResponse> call = retrofitService.login(loginRequest);
-                call.enqueue(new Callback<LoginResponse>() {
+                AuthLoginRequest authLoginRequest = new AuthLoginRequest(emailEditText.getText().toString(), passwordEditText.getText().toString());
+                Call<AuthLoginResponse> call = retrofitService.login(authLoginRequest);
+                call.enqueue(new Callback<AuthLoginResponse>() {
                     @Override
-                    public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
+                    public void onResponse(Call<AuthLoginResponse> call, Response<AuthLoginResponse> response) {
                         if (response.isSuccessful()) {
                             Toast.makeText(getApplicationContext(), "로그인 성공", Toast.LENGTH_LONG).show();
-                            LoginData.getInstance().setData(response.body());
+                            AuthLoginData.getInstance().setData(response.body());
                             getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
                             goMain();
                         }
@@ -118,7 +117,7 @@ public class LoginActivity extends AppCompatActivity {
                     }
 
                     @Override
-                    public void onFailure(Call<LoginResponse> call, Throwable t) {
+                    public void onFailure(Call<AuthLoginResponse> call, Throwable t) {
                         t.printStackTrace();
                         Toast.makeText(getApplicationContext(), "서버 연결 실패", Toast.LENGTH_LONG).show();
                         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_NOT_TOUCHABLE);
