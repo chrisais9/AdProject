@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9f10d2-c32a-4cf7-b4df-b246c7ea87ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/AuthRegisterActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/MainFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/layout/activity_register.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/GameFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/GameFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/GameWordData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/GameWordData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/GameWordRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/GameWordRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/GameWordResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/GameWordResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/AuthLoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/LoginData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/AuthLoginData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/AuthLoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/AuthLoginResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/RetrofitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/adproject/wordwar/RetrofitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/layout/fragment_game.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/layout/fragment_game.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordWarAPI/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWarAPI/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WordWarAPI/getNextWord.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WordWarAPI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWarAPI/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,15 +36,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WordWarAPI/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWarAPI/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -79,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWar/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="340">
               <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
                 <element signature="e#631#663#0" expanded="true" />
@@ -97,13 +70,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWarAPI/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="718">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WordWarAPI/checkValidWord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WordWarAPI/getNextWord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,6 +159,7 @@
         <option value="$PROJECT_DIR$/WordWarAPI/checkValidWord.py" />
         <option value="$PROJECT_DIR$/WordWarAPI/forms.py" />
         <option value="$PROJECT_DIR$/WordWarAPI/views.py" />
+        <option value="$PROJECT_DIR$/WordWarAPI/getNextWord.py" />
       </list>
     </option>
   </component>
@@ -178,7 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +225,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,7 +233,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/WordWarAPI" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -343,11 +341,12 @@
       <workItem from="1560273021433" duration="266000" />
       <workItem from="1560405360813" duration="171000" />
       <workItem from="1560426952408" duration="1003000" />
+      <workItem from="1560668451525" duration="743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33048000" />
+    <option name="totallyTimeSpent" value="33791000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,7 +360,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.30463982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.30830282" />
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.25579977" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -435,16 +434,6 @@
     <entry file="file://$PROJECT_DIR$/WordWarAPI/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordWarAPI/checkValidWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WordWarAPI/admin.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -452,6 +441,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2030">
           <caret line="631" selection-start-line="631" selection-end-line="631" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.7/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -472,10 +468,27 @@
     <entry file="file://$PROJECT_DIR$/WordWarAPI/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/WordWar/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#631#663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WordWarAPI/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWarAPI/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -489,36 +502,32 @@
     <entry file="file://$PROJECT_DIR$/WordWar/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordWarAPI/forms.py">
+    <entry file="file://$PROJECT_DIR$/WordWarAPI/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.7/site-packages/django/contrib/auth/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="86" column="14" lean-forward="true" selection-start-line="86" selection-start-column="14" selection-end-line="86" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WordWar/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        <state relative-caret-position="718">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding>
-            <element signature="e#631#663#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordWarAPI/views.py">
+    <entry file="file://$PROJECT_DIR$/WordWarAPI/checkValidWord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-end-line="18" selection-end-column="17" />
           <folding>
-            <element signature="e#0#50#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWarAPI/getNextWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

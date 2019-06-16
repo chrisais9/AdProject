@@ -42,6 +42,10 @@ def Community_index(request):
 def index(request):
     return render(request, 'default.html')
 
+def nextword(request):
+    word = request.GET['word']
+
+
 def validword(request):
     t = request.GET['word']
     flag = isValidWord(t)
