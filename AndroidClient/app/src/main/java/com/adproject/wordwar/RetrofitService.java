@@ -8,7 +8,7 @@ import retrofit2.http.Query;
 
 public interface RetrofitService {
     //public static final String baseURL = Resources.getSystem().getString(R.string.baseUrl);
-    public static final String baseURL = "http://10.30.113.79:8000/";
+    public static final String baseURL = "http://172.30.1.4:8000/";
 
     @POST("logintest/")
     Call<AuthLoginResponse> login(
