@@ -30,13 +30,13 @@ def chkcallword(word, preword):
         a = hangulutils.joinstring(k)
         if a == word :
             call=1
-    elif (t[0] == 'ㄹ'):
+    if (t[0] == 'ㄹ'):
         k.append('ㄴ')
         for i in range(1, len(t)): k.append(t[i])
         a = hangulutils.joinstring(k)
         if a == word :
             call=1
-    elif (t[0] == 'ㄹ'):
+    if (t[0] == 'ㄹ'):
         k.append('ㅇ')
         for i in range(1, len(t)): k.append(t[i])
         a = hangulutils.joinstring(k)
