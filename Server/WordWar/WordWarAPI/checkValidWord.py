@@ -1,7 +1,7 @@
 import json
 import urllib.request
 import xmltodict
-from Server.WordWar.WordWarAPI.PyHangulUtils.hglpkg import hangulutils
+from .PyHangulUtils.hglpkg import hangulutils
 
 
 def isValidWord(word):

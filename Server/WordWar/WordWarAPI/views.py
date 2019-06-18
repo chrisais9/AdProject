@@ -5,8 +5,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth import login, authenticate
 from .models import Maincommunity
 from django.views.decorators.csrf import csrf_exempt
-from WordWarAPI.checkValidWord import isValidWord
-from WordWarAPI.checkValidWord import ischkcallword
+from WordWarAPI.checkValidWord import *
 
 def signup(request):
     if request.method == "POST":
@@ -48,11 +47,11 @@ def nextword(request):
 
 
 def validword(request):
-    t = request.GET['word']
-    p = request.GET['preword']
+    t = request.GET['nowWord']
+    p = request.GET['preWord']
     flag = isValidWord(t)
     if(flag!=0):
-        chk=ischkcallword(t[0], p[len(p)-1])
+        chk= chkcallword(t[0], p[len(p)-1])
         flag*=chk
     return JsonResponse({'total': flag,'echo':t})
 
