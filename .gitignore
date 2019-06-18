@@ -24,3 +24,4 @@ Server/WordWar/WordWar/settings.py
 Server/WordWar/WordWar/__pycache__/urls.cpython-37.pyc
 Server/WordWar/WordWar/__pycache__/settings.cpython-37.pyc
 Server/WordWar/.idea/workspace.xml
+AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/Constants.java

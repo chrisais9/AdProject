@@ -1,5 +1,5 @@
 package com.kookmin.chrisais9.adproject.wordwar;
 
 public class Constants {
-    public static final String CHAT_SERVER_URL = "https://socket-io-chat.now.sh/";
+    public static final String CHAT_SERVER_URL = "http://10.30.98.1:3000/";
 }
