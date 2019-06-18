@@ -279,8 +279,8 @@ public class MainFragment extends Fragment {
         mSocket.emit("new message", message);
     }
 
-    private void checkWord(String nowWord, final String preWord){
-        for(int i = 0;i < wordArray.length; i++){
+    private void checkWord(String nowWord,String preWord){
+        for(int i = 0;i < wordCount - 1; i++){
             if(nowWord.matches(wordArray[i])){
                 wordCount --;
                 addLog("중복된 단어입니다");
@@ -303,10 +303,10 @@ public class MainFragment extends Fragment {
                 if(response.isSuccessful()) {
                     //Toast.makeText(getActivity().getApplicationContext(), "서버 응답 성공", Toast.LENGTH_LONG).show();
                     Toast.makeText(getActivity().getApplicationContext(), "flag:" + response.body().getFlag() , Toast.LENGTH_LONG).show();
-                    if(response.body().getFlag().matches("0"))
+                    if(response.body().getFlag().matches("0") || response.body().getFlag().isEmpty())
                     {
                         wordCount --;
-                        addLog("preword: "+preWord + " 다시 입력해주세요");
+                        addLog("다시 입력해주세요");
                     }
                     Log.e("django",response.body().getFlag());
                 }
