@@ -6,8 +6,6 @@
         android:orientation="vertical"
         tools:context=".MainFragment">
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     <android.support.v7.widget.RecyclerView
             android:id="@+id/messages"
             android:layout_width="match_parent"
@@ -47,20 +45,3 @@
     </LinearLayout>
 
 </LinearLayout>
-=======
-=======
->>>>>>> parent of 36fbfa4... logo add
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Word War Ver. 1.0"
-        android:textSize="30dp" />
-
-
-<<<<<<< HEAD
-</FrameLayout>
->>>>>>> parent of 36fbfa4... logo add
-=======
-</FrameLayout>
->>>>>>> parent of 36fbfa4... logo add

@@ -23,6 +23,7 @@ from WordWarAPI import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^logintest/$', views.logintest, name='logintest'),
+    url(r'^validword/$', views.validword, name='validword'),
     url(r'^login/$', views.signin, name='login'),
     url(r'^join/$', views.signup, name='join'),
     url(r'^$', views.index, name = 'index'),
