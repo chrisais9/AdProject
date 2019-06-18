@@ -7,9 +7,9 @@ public class GameWordResponse {
     @SerializedName("echo")
     @Expose
     private String word;
-    @SerializedName("total")
+    @SerializedName("flag")
     @Expose
-    private String totalOfWord;
+    private String flag;
 
     public String getWord() {
         return word;
@@ -18,10 +18,10 @@ public class GameWordResponse {
     public void setWord(String word) {
         this.word = word;
     }
-    public String getTotalOfWord(){
-        return totalOfWord;
+    public String getFlag(){
+        return flag;
     }
-    public void setTotalOfWord(String totalWord){
-        this.totalOfWord = totalWord;
+    public void setFlag(String flag){
+        this.flag = flag;
     }
 }

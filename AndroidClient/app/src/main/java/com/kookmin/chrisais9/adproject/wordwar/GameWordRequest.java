@@ -2,11 +2,11 @@ package com.kookmin.chrisais9.adproject.wordwar;
 
 public class GameWordRequest {
     private String nowWord;
-    private String prevWord;
+    private String preWord;
 
     public GameWordRequest(String nowWord, String prevWord){
         this.nowWord = nowWord;
-        this.prevWord = prevWord;
+        this.preWord = prevWord;
     }
 
     public String getNowWord(){
@@ -16,8 +16,8 @@ public class GameWordRequest {
         this.nowWord = nowWord;
     }
 
-    public String getPrevWord(){return prevWord;}
-    public void setPrevWord(String prevWord){this.prevWord = prevWord;}
+    public String getPrevWord(){return preWord;}
+    public void setPrevWord(String prevWord){this.preWord = prevWord;}
 
 
 }

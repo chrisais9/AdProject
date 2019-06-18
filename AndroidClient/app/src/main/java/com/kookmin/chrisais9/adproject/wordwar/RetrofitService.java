@@ -8,10 +8,11 @@ import retrofit2.http.Query;
 
 public interface RetrofitService {
     //public static final String baseURL = Resources.getSystem().getString(R.string.baseUrl);
-    public static final String baseURL = "http://172.30.1.4:8000/";
+    public static final String baseURL = "http://10.30.98.3:8000/";
 
     @GET("validword/")
     Call<GameWordResponse> setWord(
-            @Query("word") String word
+            @Query("nowWord") String nowWord,
+            @Query("preWord") String preWord
     );
 }

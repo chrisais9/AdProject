@@ -30,9 +30,15 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import io.socket.client.Socket;
 import io.socket.emitter.Emitter;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
 
 
 /**
@@ -45,6 +51,9 @@ public class MainFragment extends Fragment {
     private static final int REQUEST_LOGIN = 0;
 
     private static final int TYPING_TIMER_LENGTH = 600;
+
+    private String[] wordArray = new String[100];
+    private Integer wordCount = 0;
 
     private RecyclerView mMessagesView;
     private EditText mInputMessageView;
@@ -256,12 +265,54 @@ public class MainFragment extends Fragment {
             mInputMessageView.requestFocus();
             return;
         }
+        wordArray[wordCount] = message;
+        wordCount ++;
+        if(wordCount >= 2){
+            checkWord(wordArray[wordCount],wordArray[wordCount-1]);
+        }
+
 
         mInputMessageView.setText("");
         addMessage(mUsername, message);
 
         // perform the sending message attempt.
         mSocket.emit("new message", message);
+    }
+
+    private void checkWord(String nowWord, String prevWord){
+
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl(RetrofitService.baseURL)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        RetrofitService retrofitService = retrofit.create(RetrofitService.class);
+        GameWordRequest gameWordRequest = new GameWordRequest(nowWord,prevWord);
+        //Call<GameWordResponse> call = retrofitService.setWord(gameWordRequest.getNowWord(),gameWordRequest.getPrevWord());
+        Call<GameWordResponse> call = retrofitService.setWord("ㅇㅇㅇ","231");
+        call.enqueue(new Callback<GameWordResponse>() {
+
+            @Override
+            public void onResponse(Call<GameWordResponse> call, Response<GameWordResponse> response) {
+                if(response.isSuccessful()) {
+                    //Toast.makeText(getActivity().getApplicationContext(), "서버 응답 성공", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getActivity().getApplicationContext(), "flag:" + response.body().getFlag() + "입력된 단어:" + response.body().getWord(), Toast.LENGTH_LONG).show();
+                    Log.e("django",response.body().getFlag() + response.body().getWord());
+                }
+                else{
+                    Toast.makeText(getActivity().getApplicationContext(), response.raw().message(), Toast.LENGTH_LONG).show();
+                    Log.e("django",response.raw().message());
+
+                }
+
+            }
+
+            @Override
+            public void onFailure(Call<GameWordResponse> call, Throwable t) {
+                t.printStackTrace();
+                Toast.makeText(getActivity().getApplicationContext(), "서버 연결실패", Toast.LENGTH_LONG).show();
+
+            }
+        });
     }
 
     private void startSignIn() {

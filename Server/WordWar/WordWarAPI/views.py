@@ -53,7 +53,7 @@ def validword(request):
     if(flag!=0):
         chk= chkcallword(t[0], p[len(p)-1])
         flag*=chk
-    return JsonResponse({'flag': flag,'echo':t})
+    return JsonResponse({'flag': flag,'echo':p})
 
 #To be Removed
 @csrf_exempt
