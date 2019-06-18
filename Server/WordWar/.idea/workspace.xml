@@ -4,6 +4,7 @@
     <list default="true" id="3b9f10d2-c32a-4cf7-b4df-b246c7ea87ee" name="Default Changelist" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/WordWarAPI/checkValidWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWarAPI/checkValidWord.py" afterDir="false" />
 =======
       <change afterPath="$PROJECT_DIR$/WordWarAPI/getNextWord.py" afterDir="false" />
@@ -14,6 +15,10 @@
       <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 >>>>>>> parent of ca9f5f4... word validation check / game view and logic
+=======
+      <change afterPath="$PROJECT_DIR$/WordWarAPI/getNextWord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordWarAPI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWarAPI/views.py" afterDir="false" />
+>>>>>>> parent of 36fbfa4... logo add
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +52,9 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 36fbfa4... logo add
         <entry file="file://$PROJECT_DIR$/WordWarAPI/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -124,12 +132,15 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWarAPI/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
 >>>>>>> parent of ca9f5f4... word validation check / game view and logic
         </entry>
       </file>
+=======
+>>>>>>> parent of 36fbfa4... logo add
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWarAPI/getNextWord.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,6 +155,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
 <<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/WordWarAPI/PyHangulUtils/.idea/misc.xml">
           <provider selected="true" editor-type-id="text-editor" />
@@ -167,6 +179,8 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+=======
+>>>>>>> parent of 36fbfa4... logo add
 =======
 >>>>>>> parent of 36fbfa4... logo add
         <entry file="file://$PROJECT_DIR$/WordWarAPI/forms.py">
@@ -382,6 +396,7 @@
       <workItem from="1560405360813" duration="171000" />
       <workItem from="1560426952408" duration="1003000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1560668451525" duration="2174000" />
       <workItem from="1560687784817" duration="574000" />
       <workItem from="1560788519205" duration="715000" />
@@ -392,10 +407,14 @@
 >>>>>>> parent of 36fbfa4... logo add
 =======
 >>>>>>> parent of ca9f5f4... word validation check / game view and logic
+=======
+      <workItem from="1560668451525" duration="743000" />
+>>>>>>> parent of 36fbfa4... logo add
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="36982000" />
@@ -405,6 +424,9 @@
 =======
     <option name="totallyTimeSpent" value="16424000" />
 >>>>>>> parent of ca9f5f4... word validation check / game view and logic
+=======
+    <option name="totallyTimeSpent" value="33791000" />
+>>>>>>> parent of 36fbfa4... logo add
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -420,6 +442,7 @@
     <layout>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.32295483" />
 =======
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.30830282" />
@@ -427,6 +450,9 @@
 =======
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.2741148" />
 >>>>>>> parent of ca9f5f4... word validation check / game view and logic
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.30830282" />
+>>>>>>> parent of 36fbfa4... logo add
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.25579977" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
