@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9f10d2-c32a-4cf7-b4df-b246c7ea87ee" name="Default Changelist" comment="" />
+    <list default="true" id="3b9f10d2-c32a-4cf7-b4df-b246c7ea87ee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/drawable-mdpi/icon_start1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/IntroActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/IntroActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/layout/activity_intro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/res/layout/activity_intro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidClient/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWarAPI/checkValidWord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -349,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41914000" />
+    <option name="totallyTimeSpent" value="42620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -362,6 +369,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920255" visible="true" weight="0.33028084" />
       <window_info id="Structure" order="1" sideWeight="0.50079745" side_tool="true" weight="0.25579977" />
@@ -525,8 +533,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWarAPI/checkValidWord.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="204">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

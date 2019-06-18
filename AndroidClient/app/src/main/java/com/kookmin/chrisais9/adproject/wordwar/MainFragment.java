@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -31,6 +32,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
+import java.util.Timer;
 
 import io.socket.client.Socket;
 import io.socket.emitter.Emitter;
@@ -64,7 +66,12 @@ public class MainFragment extends Fragment {
     private String mUsername;
     private Socket mSocket;
 
+    private TextView textView;
+
+    private int t_value = 0;
+
     private Boolean isConnected = true;
+
 
     public MainFragment() {
         super();
@@ -172,6 +179,7 @@ public class MainFragment extends Fragment {
             }
         });
 
+
         ImageButton sendButton = (ImageButton) view.findViewById(R.id.send_button);
         sendButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -180,6 +188,7 @@ public class MainFragment extends Fragment {
             }
         });
     }
+
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
