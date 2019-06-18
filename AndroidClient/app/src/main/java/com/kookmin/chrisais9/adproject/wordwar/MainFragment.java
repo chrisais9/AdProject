@@ -394,6 +394,11 @@ public class MainFragment extends Fragment {
                         Log.e(TAG, e.getMessage());
                         return;
                     }
+                    wordArray[wordCount] = message;
+                    wordCount ++;
+                    if(wordCount >= 2){
+                        checkWord(wordArray[wordCount-1],wordArray[wordCount-2]);
+                    }
 
                     removeTyping(username);
                     addMessage(username, message);
