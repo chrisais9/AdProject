@@ -3,6 +3,7 @@ import urllib.request
 import xmltodict
 
 
+
 def isValidWord(word):
 
     encText = urllib.parse.quote(word)
