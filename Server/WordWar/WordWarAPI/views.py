@@ -49,10 +49,12 @@ def nextword(request):
 def validword(request):
     t = request.GET['nowWord']
     p = request.GET['preWord']
+    flag = 0
     flag = isValidWord(t)
     if(flag!=0):
-        chk= chkcallword(t[0], p[len(p)-1])
-        flag*=chk
+        chk = chkcallword(t[0], p[len(p)-1])
+        flag *= chk
+
     return JsonResponse({'flag': flag})
 
 #To be Removed

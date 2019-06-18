@@ -21,7 +21,7 @@ def isValidWord(word):
 
 def chkcallword(word, preword):
     call=0
-    if(word==preword) : return True
+    if(word==preword) : return 1
     t = hangulutils.splitstring(preword)
     k=[]
     if (t[0] == 'ㄴ'):
@@ -35,6 +35,6 @@ def chkcallword(word, preword):
         a = hangulutils.joinstring(k)
         if a==word:call=1
     if call==1:
-        return True
+        return 1
     else:
-        return False
+        return 0

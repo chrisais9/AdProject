@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9f10d2-c32a-4cf7-b4df-b246c7ea87ee" name="Default Changelist" comment="" />
+    <list default="true" id="3b9f10d2-c32a-4cf7-b4df-b246c7ea87ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/WordWarAPI/checkValidWord.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWarAPI/checkValidWord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WordWarAPI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWarAPI/views.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +56,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WordWarAPI/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state relative-caret-position="291">
+              <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WordWarAPI/checkValidWord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="478">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -140,8 +143,8 @@
         <option value="$PROJECT_DIR$/WordWar/urls.py" />
         <option value="$PROJECT_DIR$/WordWarAPI/forms.py" />
         <option value="$PROJECT_DIR$/WordWarAPI/getNextWord.py" />
-        <option value="$PROJECT_DIR$/WordWarAPI/checkValidWord.py" />
         <option value="$PROJECT_DIR$/WordWarAPI/views.py" />
+        <option value="$PROJECT_DIR$/WordWarAPI/checkValidWord.py" />
       </list>
     </option>
   </component>
@@ -329,12 +332,12 @@
       <workItem from="1560788519205" duration="715000" />
       <workItem from="1560838263888" duration="73000" />
       <workItem from="1560875704350" duration="398000" />
-      <workItem from="1560880287511" duration="2196000" />
+      <workItem from="1560880287511" duration="2868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39178000" />
+    <option name="totallyTimeSpent" value="39850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,16 +477,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WordWarAPI/checkValidWord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WordWarAPI/PyHangulUtils/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -513,8 +506,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WordWarAPI/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state relative-caret-position="291">
+          <caret line="51" column="25" lean-forward="true" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WordWarAPI/checkValidWord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

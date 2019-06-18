@@ -279,7 +279,9 @@ public class MainFragment extends Fragment {
         mSocket.emit("new message", message);
     }
 
-    private void checkWord(String nowWord, String preWord){
+    private String checkWord(String nowWord, String preWord){
+
+        String returnFlag;
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(RetrofitService.baseURL)
@@ -295,6 +297,7 @@ public class MainFragment extends Fragment {
                 if(response.isSuccessful()) {
                     //Toast.makeText(getActivity().getApplicationContext(), "서버 응답 성공", Toast.LENGTH_LONG).show();
                     Toast.makeText(getActivity().getApplicationContext(), "flag:" + response.body().getFlag() , Toast.LENGTH_LONG).show();
+                    if(response.body().getFlag().matches("0"))addLog("다시 입력해주세요");
                     Log.e("django",response.body().getFlag());
                 }
                 else{
