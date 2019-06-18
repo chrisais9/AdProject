@@ -268,7 +268,7 @@ public class MainFragment extends Fragment {
         wordArray[wordCount] = message;
         wordCount ++;
         if(wordCount >= 2){
-            checkWord(wordArray[wordCount],wordArray[wordCount-1]);
+            checkWord(wordArray[wordCount-1],wordArray[wordCount-2]);
         }
 
 
@@ -279,16 +279,15 @@ public class MainFragment extends Fragment {
         mSocket.emit("new message", message);
     }
 
-    private void checkWord(String nowWord, String prevWord){
+    private void checkWord(String nowWord, String preWord){
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(RetrofitService.baseURL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         RetrofitService retrofitService = retrofit.create(RetrofitService.class);
-        GameWordRequest gameWordRequest = new GameWordRequest(nowWord,prevWord);
-        //Call<GameWordResponse> call = retrofitService.setWord(gameWordRequest.getNowWord(),gameWordRequest.getPrevWord());
-        Call<GameWordResponse> call = retrofitService.setWord("ㅇㅇㅇ","231");
+        GameWordRequest gameWordRequest = new GameWordRequest(nowWord,preWord);
+        Call<GameWordResponse> call = retrofitService.setWord(gameWordRequest.getNowWord(),gameWordRequest.getPreWord());
         call.enqueue(new Callback<GameWordResponse>() {
 
             @Override

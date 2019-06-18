@@ -4,9 +4,9 @@ public class GameWordRequest {
     private String nowWord;
     private String preWord;
 
-    public GameWordRequest(String nowWord, String prevWord){
+    public GameWordRequest(String nowWord, String preWord){
         this.nowWord = nowWord;
-        this.preWord = prevWord;
+        this.preWord = preWord;
     }
 
     public String getNowWord(){
@@ -16,8 +16,8 @@ public class GameWordRequest {
         this.nowWord = nowWord;
     }
 
-    public String getPrevWord(){return preWord;}
-    public void setPrevWord(String prevWord){this.preWord = prevWord;}
+    public String getPreWord(){return preWord;}
+    public void setPreWord(String prevWord){this.preWord = prevWord;}
 
 
 }
