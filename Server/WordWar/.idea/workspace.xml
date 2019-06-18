@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b9f10d2-c32a-4cf7-b4df-b246c7ea87ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../AndroidClient - old/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AndroidClient - old/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AndroidClient - old/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AndroidClient - old/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient - old/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient - old/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient - old/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient - old/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient - old/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient - old/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient - old/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient - old/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient - old/AndroidClient - old.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient - old/AndroidClient - old.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient - old/app/app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient - old/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient - old/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/GameWordResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/GameWordResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/MainFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/MainFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/RetrofitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidClient/app/src/main/java/com/kookmin/chrisais9/adproject/wordwar/RetrofitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WordWarAPI/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/WordWarAPI/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="3b9f10d2-c32a-4cf7-b4df-b246c7ea87ee" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,12 +329,12 @@
       <workItem from="1560788519205" duration="715000" />
       <workItem from="1560838263888" duration="73000" />
       <workItem from="1560875704350" duration="398000" />
-      <workItem from="1560880287511" duration="1673000" />
+      <workItem from="1560880287511" duration="2196000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38655000" />
+    <option name="totallyTimeSpent" value="39178000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

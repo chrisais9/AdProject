@@ -294,8 +294,8 @@ public class MainFragment extends Fragment {
             public void onResponse(Call<GameWordResponse> call, Response<GameWordResponse> response) {
                 if(response.isSuccessful()) {
                     //Toast.makeText(getActivity().getApplicationContext(), "서버 응답 성공", Toast.LENGTH_LONG).show();
-                    Toast.makeText(getActivity().getApplicationContext(), "flag:" + response.body().getFlag() + "입력된 단어:" + response.body().getWord(), Toast.LENGTH_LONG).show();
-                    Log.e("django",response.body().getFlag() + response.body().getWord());
+                    Toast.makeText(getActivity().getApplicationContext(), "flag:" + response.body().getFlag() , Toast.LENGTH_LONG).show();
+                    Log.e("django",response.body().getFlag());
                 }
                 else{
                     Toast.makeText(getActivity().getApplicationContext(), response.raw().message(), Toast.LENGTH_LONG).show();
