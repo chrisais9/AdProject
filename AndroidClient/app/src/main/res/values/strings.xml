@@ -2,22 +2,22 @@
 <resources>
 
     <string name="app_name">WordWar Game</string>
-    <string name="action_leave">Leave</string>
-    <string name="action_send">Send</string>
-    <string name="prompt_message">Message</string>
+    <string name="action_leave">나가기</string>
+    <string name="action_send">전송</string>
+    <string name="prompt_message">메세지</string>
 
-    <string name="connect">Connected</string>
+    <string name="connect">연결 완료</string>
     <string name="disconnect">연결이 끊겼습니다. 확인해주세요.</string>
     <string name="error_connect">연결 실패</string>
 
     <!-- messages -->
     <string name="message_welcome">WordWar에 오신걸 환영합니다. –</string>
     <plurals name="message_participants">
-        <item quantity="one">there\'s %d participant</item>
-        <item quantity="other">there are %d participants</item>
+        <item quantity="one">%d 명이 접속중입니다.</item>
+        <item quantity="other">%d 명이 접속중입니다.</item>
     </plurals>
     <string name="message_user_joined">%s님이 참가했습니다.</string>
     <string name="message_user_left">%s님이 떠났습니다.</string>
-    <string name="user_action_typing">is typing</string>
+    <string name="user_action_typing">입력중입니다..</string>
 
 </resources>

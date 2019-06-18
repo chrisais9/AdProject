@@ -223,6 +223,7 @@ public class MainFragment extends Fragment {
     private void addMessage(String username, String message) {
         mMessages.add(new Message.Builder(Message.TYPE_MESSAGE)
                 .username(username).message(message).build());
+        Log.e("input",message);
         mAdapter.notifyItemInserted(mMessages.size() - 1);
         scrollToBottom();
     }
