@@ -5,7 +5,10 @@ from django.contrib.auth.models import User
 from django.contrib.auth import login, authenticate
 from .models import Maincommunity
 from django.views.decorators.csrf import csrf_exempt
+<<<<<<< HEAD
 from WordWarAPI.checkValidWord import *
+=======
+>>>>>>> parent of ca9f5f4... word validation check / game view and logic
 
 def signup(request):
     if request.method == "POST":
@@ -42,6 +45,7 @@ def Community_index(request):
 def index(request):
     return render(request, 'default.html')
 
+<<<<<<< HEAD
 def nextword(request):
     word = request.GET['word']
 
@@ -54,6 +58,8 @@ def validword(request):
         chk= chkcallword(t[0], p[len(p)-1])
         flag*=chk
     return JsonResponse({'total': flag,'echo':t})
+=======
+>>>>>>> parent of ca9f5f4... word validation check / game view and logic
 
 #To be Removed
 @csrf_exempt
