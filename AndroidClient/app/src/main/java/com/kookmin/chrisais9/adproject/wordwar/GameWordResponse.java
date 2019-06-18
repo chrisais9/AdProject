@@ -1,4 +1,4 @@
-package com.adproject.wordwar;
+package com.kookmin.chrisais9.adproject.wordwar;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
