@@ -279,7 +279,15 @@ public class MainFragment extends Fragment {
         mSocket.emit("new message", message);
     }
 
-    private void checkWord(String nowWord, String preWord){
+    private void checkWord(String nowWord, final String preWord){
+        for(int i = 0;i < wordArray.length; i++){
+            if(nowWord.matches(wordArray[i])){
+                wordCount --;
+                addLog("중복된 단어입니다");
+                return;
+            }
+
+        }
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(RetrofitService.baseURL)
@@ -298,7 +306,7 @@ public class MainFragment extends Fragment {
                     if(response.body().getFlag().matches("0"))
                     {
                         wordCount --;
-                        addLog("다시 입력해주세요");
+                        addLog("preword: "+preWord + " 다시 입력해주세요");
                     }
                     Log.e("django",response.body().getFlag());
                 }

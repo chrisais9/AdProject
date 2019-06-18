@@ -502,12 +502,3 @@ def countkbdstrokes(astr: str):
     return sftcount, count
 
 
-# endregion ------------
-
-
-def main():
-    print("모듈로 임포트하여 사용하세요.")
-
-
-if __name__ == "__main__":
-    main()
