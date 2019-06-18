@@ -34,7 +34,9 @@ def chkcallword(word, preword):
         for i in range(1, len(t)): k.append(t[i])
         a = hangulutils.joinstring(k)
         if a==word:call=1
-    if call==1:
-        return 1
-    else:
-        return 0
+    elif (t[0] == 'ㄹ'):
+        k.append('ㅇ')
+        for i in range(1, len(t)): k.append(t[i])
+        a = hangulutils.joinstring(k)
+        if a==word:call=1
+    return call
